@@ -1,13 +1,14 @@
 #include<iostream.h>
 #include<conio.h>
 int main()
-{ int a,b,c;
-  cout<<"enter no.";                       
+{ 
+  int a,b,c;
+  cout<<"enter first number"<<endl;                       
   cin>>a;   
-  cout<<"other no.";
+  cout<<"enter second number"<<endl;
   cin>>b;
 
-  cout<<"sum:"<<a+b;   
+  cout<<"sum:"<<a+b<<endl;   
  
 getch();
 }
